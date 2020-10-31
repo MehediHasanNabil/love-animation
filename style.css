@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #94bcb2;
+}
+
+.first{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    transform: rotate(45deg);
+    border-radius: 43px 50px 0 54px;
+    animation-name: onePosition;
+    animation-duration: 2s;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+@keyframes onePosition{
+    0%{
+        bottom: 40px;
+    }
+    50%{
+        bottom: 200px;
+    }
+    75%{
+        bottom: 450px;
+    }
+    100%{
+        bottom: 750px;
+    }
+}
+
+.text {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 80px;
+    transform: rotate(-44deg);
+    position: relative;
+    color: red;
+    font-weight: bold;
+}
